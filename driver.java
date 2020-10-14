@@ -5,12 +5,25 @@ public class driver{
 		fish nemo = new fish();
 
 		nemo.Swim();
-		nemo.color = "orange";
+		//nemo.color = "orange";
+		nemo.SetColor("orange");
 		nemo.Swim();
 
-		fish dory = new fish();
-		dory.Swim();
-		dory.color = "purple";
-		dory.Swim();
+		shark josh = new shark();
+		josh.Eat();
+		josh.Swim();
+		josh.SetSharpTeeth(138);
+		josh.Eat();
+
+		// fish dory = new fish();
+		// dory.Swim();
+		// //dory.color = "purple";
+		// dory.SetColor("purple");
+		// dory.Swim();
+
+		// aquarium fancyAquarium = new aquarium();
+		// fancyAquarium.fillFish();
+
+
 	}
 }
